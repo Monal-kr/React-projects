@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+button {
+    all: unset;
+    padding: 6px 16px;
+    background: red;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+.container {
+    margin: 0 auto;
+    max-width: '1280px';
+}
+img {
+    max-width: 20%;
+    height: auto;
+    display: flex;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    height: calc(100vh-72px);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.hero h1 {
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+}
+.hero p {
+    font-weight: 400;
+    color: gray;
+    max-width: 400px;
+}
+.hero-btn {
+    display: flex;
+    gap: 40px;
+}
+.hero-btn button {
+    font-size: 24px;
+}
+.secondary-btn {
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+}
+.shopping p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.brand-icons {
+    display: flex;
+    gap: 16px;
+}
